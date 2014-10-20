@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+  <testsuite>
+<testcase classname="assets.source.script.util" name="util:62:33">
+  <failure message="'document' was used before it was defined." />
+</testcase>
+<testcase classname="assets.source.script.util" name="util:66:33">
+  <failure message="'document' was used before it was defined." />
+</testcase>
+<testcase classname="assets.source.script.util" name="util:70:33">
+  <failure message="'document' was used before it was defined." />
+</testcase>
+<testcase classname="assets.source.script.util" name="util:122:3">
+  <failure message="Move the invocation into the parens that contain the function." />
+</testcase>
+<testcase classname="assets.source.script.util" name="util:122:4">
+  <failure message="'window' was used before it was defined." />
+</testcase>
+<testcase classname="assets.source.script.modal" name="modal:9:23">
+  <failure message="'util' was used before it was defined." />
+</testcase>
+<testcase classname="assets.source.script.modal" name="modal:27:30">
+  <failure message="'document' was used before it was defined." />
+</testcase>
+<testcase classname="assets.source.script.modal" name="modal:30:13">
+  <failure message="'util' was used before it was defined." />
+</testcase>
+<testcase classname="assets.source.script.modal" name="modal:34:17">
+  <failure message="'util' was used before it was defined." />
+</testcase>
+<testcase classname="assets.source.script.modal" name="modal:36:17">
+  <failure message="'util' was used before it was defined." />
+</testcase>
+<testcase classname="assets.source.script.modal" name="modal:42:27">
+  <failure message="'document' was used before it was defined." />
+</testcase>
+<testcase classname="assets.source.script.modal" name="modal:49:9">
+  <failure message="'util' was used before it was defined." />
+</testcase>
+<testcase classname="assets.source.script.modal" name="modal:56:22">
+  <failure message="'util' was used before it was defined." />
+</testcase>
+<testcase classname="assets.source.script.modal" name="modal:57:9">
+  <failure message="'util' was used before it was defined." />
+</testcase>
+<testcase classname="assets.source.script.modal" name="modal:60:13">
+  <failure message="'util' was used before it was defined." />
+</testcase>
+<testcase classname="assets.source.script.modal" name="modal:99:20">
+  <failure message="'util' was used before it was defined." />
+</testcase>
+<testcase classname="assets.source.script.modal" name="modal:100:28">
+  <failure message="'util' was used before it was defined." />
+</testcase>
+<testcase classname="assets.source.script.modal" name="modal:102:9">
+  <failure message="'util' was used before it was defined." />
+</testcase>
+<testcase classname="assets.source.script.modal" name="modal:104:13">
+  <failure message="'util' was used before it was defined." />
+</testcase>
+<testcase classname="assets.source.script.modal" name="modal:107:13">
+  <failure message="'util' was used before it was defined." />
+</testcase>
+<testcase classname="assets.source.script.modal" name="modal:108:13">
+  <failure message="'util' was used before it was defined." />
+</testcase>
+<testcase classname="assets.source.script.modal" name="modal:111:9">
+  <failure message="'util' was used before it was defined." />
+</testcase>
+<testcase classname="assets.source.script.modal" name="modal:112:9">
+  <failure message="'util' was used before it was defined." />
+</testcase>
+<testcase classname="assets.source.script.modal" name="modal:117:28">
+  <failure message="'util' was used before it was defined." />
+</testcase>
+<testcase classname="assets.source.script.modal" name="modal:118:20">
+  <failure message="'util' was used before it was defined." />
+</testcase>
+<testcase classname="assets.source.script.modal" name="modal:120:9">
+  <failure message="'util' was used before it was defined." />
+</testcase>
+<testcase classname="assets.source.script.modal" name="modal:122:13">
+  <failure message="'util' was used before it was defined." />
+</testcase>
+<testcase classname="assets.source.script.modal" name="modal:123:13">
+  <failure message="'util' was used before it was defined." />
+</testcase>
+<testcase classname="assets.source.script.modal" name="modal:125:21">
+  <failure message="'util' was used before it was defined." />
+</testcase>
+<testcase classname="assets.source.script.modal" name="modal:126:21">
+  <failure message="'util' was used before it was defined." />
+</testcase>
+<testcase classname="assets.source.script.modal" name="modal:127:21">
+  <failure message="'util' was used before it was defined." />
+</testcase>
+<testcase classname="assets.source.script.modal" name="modal:129:25">
+  <failure message="'util' was used before it was defined." />
+</testcase>
+<testcase classname="assets.source.script.modal" name="modal:131:25">
+  <failure message="'util' was used before it was defined." />
+</testcase>
+<testcase classname="assets.source.script.modal" name="modal:133:21">
+  <failure message="'util' was used before it was defined." />
+</testcase>
+<testcase classname="assets.source.script.modal" name="modal:142:3">
+  <failure message="'window' was used before it was defined." />
+</testcase>
+  </testsuite>
+</testsuites>

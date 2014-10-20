@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Modal plain javascript</title>
+    <link type="text/css" href="assets/build/css/modal.min.css"  rel="stylesheet" />
+</head>
+<body>
+    <div class="modal-source">
+        <h1>Dit is een test</h1>
+        <p>En kijken of er ook iets aan het document wordt toegevoegd</p>
+    </div>
+    <div id="modalSource">
+        <h1>Dit is een modal</h1>
+        <p>Deze modal komt van beneden en na het sluiten gaat deze naar boven</p>
+    </div>
+    <div id="modalSource2">
+        <h1>Dit is een tweede modal</h1>
+        <p>Deze modal komt van links en na het sluiten gaat deze naar rechts</p>
+    </div>
+    <button id="button">Toon modal</button>
+    <button id="button2">Toon modal2</button>
+    <script type="text/javascript" src="assets/build/script/plainmodal.min.js"></script>
+    <script type="text/javascript">
+        window.addEventListener('load', function() {
+            var modal = new Modal({
+                trigger: '#button',
+                selector: '#modalSource',
+                animation: 'fromBottom',
+                animationInvert: 'toTop'
+            });
+
+            var modal2 = new Modal({
+                trigger: '#button2',
+                selector: '#modalSource2',
+                animation: 'fromLeft',
+                animationInvert: 'toRight'
+            })
+        });
+
+    </script>
+</body>
+</html>

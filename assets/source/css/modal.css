@@ -1,0 +1,51 @@
+.hidden, .trigger { display: none; }
+.noscroll { overflow: hidden; }
+.modal {
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    top: 10%;
+    min-height: 50%;
+    border: 1px solid #CDCDCD;
+    padding: 1em;
+    background: #EFEFEF;
+}
+
+.modal.show.fromTop {
+    animation: fromTop 0.5s;
+}
+.modal.show.fromLeft {
+    animation: fromLeft 0.5s;
+}
+.modal.show.fromBottom {
+    animation: fromBottom 0.5s;
+}
+.modal.show.toTop {
+    animation: toTop 0.5s;
+}
+.modal.show.toRight {
+    animation: toRight 0.5s;
+}
+
+
+@keyframes fromTop {
+    from { top: -60%; }
+    to { top: 10%; }
+}
+
+@keyframes fromBottom {
+    from { top: 200%; }
+    to { top: 10%; }
+}
+@keyframes fromLeft {
+    from { left: -75%; }
+    to { left: 25%; }
+}
+@keyframes toTop {
+     from { top: 10%; }
+     to { top: -60%; }
+}
+@keyframes toRight {
+    from { left: 25%; }
+    to { left: 100%; }
+}

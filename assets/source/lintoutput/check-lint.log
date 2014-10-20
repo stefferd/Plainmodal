@@ -1,0 +1,39 @@
+FAIL	assets/source/script/util.js (5)
+assets/source/script/util.js:62:33	'document' was used before it was defined.
+assets/source/script/util.js:66:33	'document' was used before it was defined.
+assets/source/script/util.js:70:33	'document' was used before it was defined.
+assets/source/script/util.js:122:3	Move the invocation into the parens that contain the function.
+assets/source/script/util.js:122:4	'window' was used before it was defined.
+FAIL	assets/source/script/modal.js (30)
+assets/source/script/modal.js:9:23	'util' was used before it was defined.
+assets/source/script/modal.js:27:30	'document' was used before it was defined.
+assets/source/script/modal.js:30:13	'util' was used before it was defined.
+assets/source/script/modal.js:34:17	'util' was used before it was defined.
+assets/source/script/modal.js:36:17	'util' was used before it was defined.
+assets/source/script/modal.js:42:27	'document' was used before it was defined.
+assets/source/script/modal.js:49:9	'util' was used before it was defined.
+assets/source/script/modal.js:56:22	'util' was used before it was defined.
+assets/source/script/modal.js:57:9	'util' was used before it was defined.
+assets/source/script/modal.js:60:13	'util' was used before it was defined.
+assets/source/script/modal.js:99:20	'util' was used before it was defined.
+assets/source/script/modal.js:100:28	'util' was used before it was defined.
+assets/source/script/modal.js:102:9	'util' was used before it was defined.
+assets/source/script/modal.js:104:13	'util' was used before it was defined.
+assets/source/script/modal.js:107:13	'util' was used before it was defined.
+assets/source/script/modal.js:108:13	'util' was used before it was defined.
+assets/source/script/modal.js:111:9	'util' was used before it was defined.
+assets/source/script/modal.js:112:9	'util' was used before it was defined.
+assets/source/script/modal.js:117:28	'util' was used before it was defined.
+assets/source/script/modal.js:118:20	'util' was used before it was defined.
+assets/source/script/modal.js:120:9	'util' was used before it was defined.
+assets/source/script/modal.js:122:13	'util' was used before it was defined.
+assets/source/script/modal.js:123:13	'util' was used before it was defined.
+assets/source/script/modal.js:125:21	'util' was used before it was defined.
+assets/source/script/modal.js:126:21	'util' was used before it was defined.
+assets/source/script/modal.js:127:21	'util' was used before it was defined.
+assets/source/script/modal.js:129:25	'util' was used before it was defined.
+assets/source/script/modal.js:131:25	'util' was used before it was defined.
+assets/source/script/modal.js:133:21	'util' was used before it was defined.
+assets/source/script/modal.js:142:3	'window' was used before it was defined.
+
+# JSLint failed, 35 violations in 2.  2 files scanned.
